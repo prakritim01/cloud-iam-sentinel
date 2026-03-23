@@ -1,0 +1,11 @@
+name: IAM Scan
+
+on: [pull_request]
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run Scanner
+        run: python devsecops/scan.py

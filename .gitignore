@@ -1,0 +1,19 @@
+# Node modules (The most important part to ignore)
+node_modules/
+frontend/node_modules/
+
+# Python cache and environments
+__pycache__/
+*.pyc
+.env
+venv/
+.venv/
+
+# Build folders
+dist/
+build/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
