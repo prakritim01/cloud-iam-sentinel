@@ -1,7 +1,7 @@
 import { useState } from "react";
-import PolicyInput from "../../components/PolicyInput";
-import ScoreCard from "../../components/ScoreCard";
-import ThreatTable from "../../components/ThreatTable";
+import PolicyInput from "../components/PolicyInput";
+import ScoreCard from "../components/ScoreCard";
+import ThreatTable from "../components/ThreatTable";
 import Charts from "../../components/Charts";
 import { scanPolicy } from "../services/api";
 
